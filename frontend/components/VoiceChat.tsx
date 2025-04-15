@@ -157,6 +157,8 @@ export function VoiceChat({
     updateAudioLevel();
   };
 
+  //function which is responsible for toggling Mute
+
   const toggleMute = () => {
     if (localStreamRef.current) {
       const audioTracks = localStreamRef.current.getAudioTracks();
@@ -167,6 +169,8 @@ export function VoiceChat({
     }
   };
 
+
+  // function which is responsible for toggling Deafen
   const toggleDeafen = () => {
     if (audioElementRef.current) {
       audioElementRef.current.muted = !audioElementRef.current.muted;
@@ -249,6 +253,8 @@ export function VoiceChat({
           label={voiceState.isDeafened ? "Undeafen" : "Deafen"}
           className="bg-gray-700 hover:bg-gray-600"
         />
+
+        {/* on clicking this button video call will be started */}
         <button
           onClick={startCall}
           className="px-3 py-1 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
