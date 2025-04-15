@@ -239,6 +239,7 @@ export function VoiceChat({
   return (
     <div className="fixed bottom-4 right-4 z-30 bg-gray-800 rounded-xl shadow-lg p-3 space-y-3">
       <div className="flex space-x-2">
+        {/* On clicking this icon user will be able to toggle the mute functoinality */}
         <IconButton
           onClick={toggleMute}
           activated={!voiceState.isMuted}
@@ -246,6 +247,8 @@ export function VoiceChat({
           label={voiceState.isMuted ? "Unmute" : "Mute"}
           className="bg-gray-700 hover:bg-gray-600"
         />
+
+        {/* On clicking this icon user will be able to toggle the deafen */}
         <IconButton
           onClick={toggleDeafen}
           activated={!voiceState.isDeafened}
