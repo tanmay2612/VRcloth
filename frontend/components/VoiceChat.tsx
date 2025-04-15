@@ -33,6 +33,8 @@ export function VoiceChat({
   const audioAnalyserRef = useRef<AnalyserNode | null>(null);
   const animationFrameRef = useRef<number>(null);
 
+
+  // function which is responsible to startCall
   const startCall = async () => {
     if (!peerConnectionRef.current) {
       await initializeVoiceChat();
@@ -59,6 +61,7 @@ export function VoiceChat({
     }
   };
 
+  // function which is responsible to initializeVoiceChat
   const initializeVoiceChat = async () => {
     try {
       const configuration = { 
@@ -128,6 +131,8 @@ export function VoiceChat({
     }
   };
 
+
+  // function which is responsible for startAudioLevelMonitoring 
   const startAudioLevelMonitoring = () => {
     if (!audioAnalyserRef.current) return;
 
