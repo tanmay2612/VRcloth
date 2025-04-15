@@ -9,6 +9,7 @@ type Mode = 'select' | 'join' | 'create';
 type Status = 'idle' | 'loading' | 'success' | 'error';
 
 function App() {
+  
   const [mode, setMode] = useState<Mode>('select');
   const [roomName, setRoomName] = useState('');
   const [status, setStatus] = useState<Status>('idle');
@@ -55,6 +56,9 @@ function App() {
       setMessage('Internal Server Error, Try Again!');
     }
   };
+
+
+  // function which handles joining of the room 
   
 
   const handleJoinRoom = async (e: React.FormEvent) => {
