@@ -2,6 +2,15 @@ import { X, Send } from "lucide-react";
 import { useEffect } from "react";
 import { useState } from "react";
 
+/// ChatInterface component
+/// This component is responsible for displaying the chat interface
+/// It takes in the following props:
+/// - isChatOpen: boolean - whether the chat is open or not
+/// - setIsChatOpen: function - function to set the chat open state
+/// - socket: WebSocket - the WebSocket connection
+/// - roomId: string - the room ID for the chat
+/// - username: string - the username of the user
+
 interface ChatInterfaceProps {
   isChatOpen: boolean;
   setIsChatOpen: (isOpen: boolean) => void;
