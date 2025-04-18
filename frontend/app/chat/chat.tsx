@@ -36,6 +36,13 @@ export default function ChatInterface({ setIsChatOpen, socket, roomId, username 
     };
   }, [socket]);
 
+  /// Handle sending messages
+  /// This function is called when the user sends a message
+  /// It sends the message to the server via the WebSocket connection
+  /// It also clears the input field after sending the message
+  /// @param {string} message - The message to be sent
+  /// @returns {void}
+
   const handleSendMessage = () => {
     socket.send(JSON.stringify({
         type: "messages",
@@ -45,6 +52,9 @@ export default function ChatInterface({ setIsChatOpen, socket, roomId, username 
     }))
     setInput("")
   };
+
+  /// Handle closing the chat
+  /// This function is called when the user closes the chat
   return (
     <div className="h-screen fixed top-0 right-0 w-1/4 flex flex-col bg-white/90 backdrop-blur-sm z-30 border border-gray-100">
       {/* Header */}
