@@ -35,7 +35,7 @@ Stores environment variables like database URL, JWT secret, and API keys. *(Igno
 
 ### 1️⃣ Clone the Repository  
 ```sh
-https://github.com/Shivam1983/CodeSketch/tree/main/http-backend
+git clone https://github.com/Shivam1983/CodeSketch/tree/main/http-backend
 cd CodeSketch/http-backend
 ```
 
