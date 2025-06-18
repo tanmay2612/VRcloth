@@ -1,6 +1,6 @@
-# Dev-Sketch WebSocket Backend ⚡
+# CodeSketch WebSocket Backend ⚡
 
-This is the **WebSocket backend** for **Dev-Sketch**, a collaborative platform that enables real-time **drawing, coding, and chatting**. It handles live communication between users for seamless collaboration.
+This is the **WebSocket backend** for **CodeSketch**, a collaborative platform that enables real-time **drawing, coding, and chatting**. It handles live communication between users for seamless collaboration.
 
 ---
 
@@ -40,7 +40,7 @@ Stores environment variables like WebSocket port, authentication secrets, etc. *
 
 ### 1️⃣ Clone the Repository  
 ```sh
-git clone https://github.com/RISHIK92/Dev-Sketch.git
+git clone https://github.com/Shivam1983/CodeSketch/tree/main/websocket-backend
 cd Dev-Sketch/websocket-backend
 ```
 ### 2️⃣ Install Dependencies
