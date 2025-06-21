@@ -10,8 +10,12 @@ import { Loader2 } from "lucide-react";
 // Backend API base URL
 const HTTP_Backend = "http://localhost:8080";
 
+
+
 export default function CreateRoom() {
   // Local state for room name input
+  // added button states
+  const [buttonState,setButtonState]=useState("")
   const [roomName, setRoomName] = useState("");
 
   // State for showing current status: 'idle' | 'loading' | 'success' | 'error'
