@@ -41,7 +41,7 @@ Stores environment variables like WebSocket port, authentication secrets, etc. *
 ### 1️⃣ Clone the Repository  
 ```sh
 git clone https://github.com/Shivam1983/CodeSketch/tree/main/websocket-backend
-cd Dev-Sketch/websocket-backend
+cd CodeSketch/websocket-backend
 ```
 ### 2️⃣ Install Dependencies
 ```sh
