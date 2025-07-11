@@ -1,68 +1,48 @@
-# VRcloth
+# VRcloth 🎨🧥
 
-**VRcloth** is a collaborative platform that allows users to **draw, code, and chat** in real-time. It provides a seamless experience for teams to work together on sketches, share and edit code, and communicate via text or voice chat.
-
-
----
-
-## Features
--  **Real-time Canvas** - Draw and collaborate with others live.
--  **Live Chat System** - Communicate via text while working.
--  **Code Editor** - Share and edit code in real-time.
--  **Voice Chat** - Talk with teammates while collaborating.
--  **Room Management** - Create and join different collaboration rooms.
+**VRcloth** is a real-time collaboration platform where users can sketch ideas, write code together, and chat — all in one space. Whether you're designing, coding, or just vibing with your team, VRcloth makes remote collab feel *almost physical*.
 
 ---
 
-## Tech Stack
-- **Frontend**: Next.js, React, TypeScript, Tailwind CSS
-- **Backend**:
-  - **HTTP Backend**: Node.js, Express.js, Prisma (PostgreSQL)
-  - **WebSocket Backend**: Websockets and WebRTC
-- **Authentication**: JWT (JSON Web Token)
+##  Core Features
+
+- ✏️ **Live Drawing Canvas** – Sketch ideas in real-time with others
+- 💬 **Text Chat** – Talk while you work, without switching tabs
+- 💻 **Code Editor** – Share and edit code live
+- 🎙️ **Voice Chat** – Real conversations while collaborating
+- 🛏️ **Rooms** – Create, join, and manage collab spaces on the fly
+
+---
+
+## 🧠 Tech Behind the Magic
+
+- **Frontend**: Next.js + React + TypeScript + Tailwind CSS
+- **Backends**:
+  - REST APIs → Node.js + Express + Prisma (PostgreSQL)
+  - Real-time → WebSockets, WebRTC
+- **Auth**: JWT (token-based)
 - **Database**: PostgreSQL (via Prisma ORM)
-- **Package Manager**: pnpm and npm
+- **Tools**: Managed with `pnpm` & `npm`
 
 ---
 
-## Folder Structure
+## 🗂 Folder Breakdown
 
-### `frontend/` ([View Repository](https://github.com/Shivam1983/CodeSketch/tree/main/frontend))
-This folder contains the **React & Next.js frontend** for Dev-Sketch.  
-- Built using **Next.js, React, TypeScript**.  
-- Implements **real-time drawing, code sharing, and chat**.  
-- Uses **WebSockets** for live updates.  
+### `frontend/`  
+> The UI part — all things user-facing. Built with Next.js & React. Handles drawing, chatting, code-sharing in real-time.
 
-### `http-backend/` ([View Repository](https://github.com/Shivam1983/CodeSketch/tree/main/http-backend))
-This is the **HTTP API backend** of Dev-Sketch.  
-- Built using **Node.js, Express, Prisma**.  
-- Handles **user authentication, database interactions, and API requests**.
-- Manages **user profiles, project data, and authentication**.  
+### `http-backend/`  
+> Powers the REST API — handles users, auth, DB queries, and general API routes.
 
-### `websocket-backend/` ([View Repository](https://github.com/Shivam1983/CodeSketch/tree/main/websocket-backend))
-This is the **WebSocket backend** for real-time features.  
-- Uses **Socket.io** for live communication.  
-- Manages **real-time drawing, code collaboration, and chat events**.  
-- Ensures seamless **room-based collaboration**.  
+### `websocket-backend/`  
+> Manages real-time communication with Socket.io — think collaborative drawing, live code edits, chat events, etc.
 
-## Installation & Setup
+---
 
-### 1️⃣ Clone the Repository
-```sh
-git clone [https://github.com/RISHIK92/Dev-Sketch.git](https://github.com/Shivam1983/CodeSketch)
-cd CodeSketch
-```
-🔎 Visit each folder's README for a more detailed view of what each folder does:
+## ⚙️ Getting Started
 
-## Folder Details
+Clone this project to your machine:
 
-- [Frontend README](https://github.com/Shivam1983/CodeSketch/tree/main/frontend)  
-- [HTTP Backend README](https://github.com/Shivam1983/CodeSketch/tree/main/http-backend)  
-- [WebSocket Backend README](https://github.com/Shivam1983/CodeSketch/tree/main/websocket-backend)
-  
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-This README gives a **clear overview** of the entire project. Let me know if you need any edits! 😊
+```bash
+git clone https://github.com/tanmay2612/VRcloth.git
+cd VRcloth
