@@ -1,6 +1,6 @@
-# VRcloth 🎨🧥
+# CodeForge 
 
-**VRcloth** is a real-time collaboration platform where users can sketch ideas, write code together, and chat — all in one space. Whether you're designing, coding, or just vibing with your team, VRcloth makes remote collab feel *almost physical*.
+**CodeForge** is a real-time collaboration platform where users can sketch ideas, write code together, and chat — all in one space. Whether you're designing, coding, or just vibing with your team, VRcloth makes remote collab feel *almost physical*.
 
 ---
 
@@ -44,5 +44,5 @@
 Clone this project to your machine:
 
 ```bash
-git clone https://github.com/tanmay2612/VRcloth.git
-cd VRcloth
+git clone https://github.com/tanmay2612/CodeForge.git
+cd CodeForge
