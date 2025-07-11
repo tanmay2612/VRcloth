@@ -1,6 +1,6 @@
-# CodeSketch
+# VRcode
 
-**CodeSketch** is a collaborative platform that allows users to **draw, code, and chat** in real-time. It provides a seamless experience for teams to work together on sketches, share and edit code, and communicate via text or voice chat.
+**VRcloth** is a collaborative platform that allows users to **draw, code, and chat** in real-time. It provides a seamless experience for teams to work together on sketches, share and edit code, and communicate via text or voice chat.
 
 
 ---
